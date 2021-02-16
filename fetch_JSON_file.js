@@ -16,7 +16,7 @@ var posts_arr = [];
 var ingest_arr = [];
 
 
-// this is the function that requests from tumblr when you press the button
+// this is the function that requests from tumblr
 function request_from_tumblr(){
 
     Promise.all([
@@ -73,14 +73,14 @@ function writeToFile(  ){
 }
 
 
-// this is a helper function that eventually prints all the posts
+// this is a helper function that eventually prints all the posts *WAS MADE FOR TESTING PURPOSES*
 function showAllPosts(){
     //posts_arr.forEach(createDivs);
     //posts_arr.forEach(printCaption);
     //posts_arr.forEach(writeToFile);
 }
 
-// this will go through our array "posts_arr", and print all of the posts at each index
+// this will go through our array "posts_arr", and print all of the posts at each index *WAS MADE FOR TESTING PURPOSES*
 function printCaption( post, index ){
     
     var divName = "div_Post_" + index;
@@ -95,7 +95,7 @@ function printCaption( post, index ){
 
 }
 
-// this will create a new div for each one of our posts to keep track of
+// this will create a new div for each one of our posts to keep track of *WAS MADE FOR TESTING PURPOSES*
 function createDivs( post, index ){
     
     var divName = "div_Post_" + index;
