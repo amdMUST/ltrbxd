@@ -698,13 +698,7 @@ function parsePhotos( photos , cleaned_post ){
     newFigure.width = header_img.width;
     newFigure.height = header_img.height;
 
-    /*if( photos[0].caption != '' ){
-        console.log('bruh')
-        newFigure.caption = header_img.caption;
-    }
-    else{
-        newFigure.caption = '';
-    }*/
+    
     newFigure.caption = '';
     newFigure.img_src = header_img.url;
     
