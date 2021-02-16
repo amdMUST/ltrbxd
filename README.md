@@ -1,4 +1,4 @@
-# Letterboxd, by Ahmed
+# Letterboxd Post-Cleaner tool, by Ahmed
 This will get the letterboxd posts from the tumblr API and then it parses all the raw posts into a more concise JSON form. Then it will download all the photos needed for the figures. 
 
 *NOTE THE ONLY THING NEEDED, IS TO WRITE A SCRIPT TO CHANGE THE IMAGE URL OF THE FIGURES ONCE IT IS HOSTED SOMEWHERE OTHER THAN TUMBLR.*
