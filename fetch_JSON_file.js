@@ -1,4 +1,4 @@
-let tumblr_api_key = "api_key=HrmmfaRpTugiVX2R6znMylPhSqCllLTiBiVK9B4bTWtBzffi8g";
+let tumblr_api_key = "api_key=XXXXget_your_own_api_keyXXXX";
 let letterboxd_address = "letterboxd.tumblr.com/posts?";
 let barebones_Url = "https://api.tumblr.com/v2/blog/ "+ letterboxd_address + tumblr_api_key;
 const fetch = require("node-fetch");
